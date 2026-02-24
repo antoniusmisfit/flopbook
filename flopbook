@@ -46,6 +46,7 @@ create: Create a plaintext ebook in Flopbook's home directory.
 import: Import a plaintext ebook into Flopbook' home directory.
 list:   List the books within Flopbook's home directory.
 mkhtml: Output a single page HTML version of a specified book to stdout.
+mkrtf: Output a rich text format version of the specified book to stdout.
 EOF
 }
 
@@ -71,6 +72,17 @@ EOF
 fb_mkpdf()
 {
 #PDF generation not implemented yet
+}
+
+fb_mkrtf()
+{
+cat << EOF
+{\rtf
+{\fonttbl {\f0 Times New Roman;}}
+\f0\fs60
+$(cat $1)
+}
+EOF
 }
 
 fb_$1 $2

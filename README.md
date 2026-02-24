@@ -14,6 +14,8 @@ import: Import a plaintext ebook into Flopbook' home directory.
 list: List the books within Flopbook's home directory.
 
 mkhtml: Output a single page HTML version of a specified book to stdout.
+
+mkrtf: Output a rich text format version of a specified book to stdout.
 ### Notes
 * On Floppinux only, there is no need to "chmod +x" the Flopbook script.
 * If you have mounted a second floppy within Floppinux, change the FBHOME variable to point to a "fbook" subdirectory within the floppy's mount point.

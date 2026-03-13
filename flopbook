@@ -71,7 +71,7 @@ EOF
 
 fb_mkpdf()
 {
-#PDF generation not implemented yet
+echo "PDF generation not implemented yet"
 }
 
 fb_mkrtf()

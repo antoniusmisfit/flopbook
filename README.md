@@ -19,4 +19,4 @@ mkrtf: Output a rich text format version of a specified book to stdout.
 ### Notes
 * On Floppinux only, there is no need to "chmod +x" the Flopbook script.
 * If you have mounted a second floppy within Floppinux, change the FBHOME variable to point to a "fbook" subdirectory within the floppy's mount point.
-* Flopbook works on practically any Linux distribution.
+* Flopbook works on practically any Linux distribution, and with minimal changes work on FreeBSD and other Unix-like operating systems.
